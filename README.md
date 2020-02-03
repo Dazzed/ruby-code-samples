@@ -9,9 +9,13 @@ All the endpoints are implemented through paths that follows this standard REST 
 By using standard REST, Available endpoints as well as input and responses can be inferred by examining the application data model (schema.rb)
 
 POST / [plural model name] - create a new model, input a json representation of the new model, will return the newly created model
+
 PUT / [plural model name] / id  - update, input a json representation of the model, will return the updated model
+
 GET / [plural model name] / id - get a specific item, will return a json reprentation of the model
+
 GET / [plural model name] - index, or a list of items, possibly filtered by parameters, will return a json array of the model objects
+
 DELETE / plural model name / id - delete an object
 
 Some example Paths:
