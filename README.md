@@ -19,6 +19,7 @@ GET / [plural model name] - index, or a list of items, possibly filtered by para
 DELETE / plural model name / id - delete an object
 
 Some example Paths:
+
 POST /tokens?username=lsease@gmail.com&password=password
 GET /questions?access_token=[token]?format=json
 
